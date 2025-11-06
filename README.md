@@ -1,5 +1,7 @@
 STEP BY STEP:
 
+#Note: SEO + Accessebility
+
 step 1 :
 git init
 

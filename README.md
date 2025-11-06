@@ -238,3 +238,13 @@ Local images, culture-based examples use karna
 Voice tone, color, dates, images region ke hisaab se change
 
 📌 Localization = Actual adaptation for each country/language
+
+step 13: add comments too
+
+<!-- ===== Header / Nav ===== -->
+<!-- ===== Hero ===== -->
+<!-- ===== Features ===== -->
+<!-- ===== Pricing (Table) ===== -->
+<!-- ===== FAQ (details/summary) ===== -->
+<!-- ===== Contact ===== -->
+<!-- ===== Footer ===== -->

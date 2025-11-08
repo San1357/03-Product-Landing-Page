@@ -248,3 +248,17 @@ step 13: add comments too
 <!-- ===== FAQ (details/summary) ===== -->
 <!-- ===== Contact ===== -->
 <!-- ===== Footer ===== -->
+
+## Responsivenes
+
+Quick QA checklist
+
+Mobile: hero fits nicely, buttons wrap
+
+Features: 4 → 2 → 1 grid works
+
+Pricing: scrolls horizontally on tiny phones
+
+FAQ: summary has arrow & easy to tap
+
+Contact form: still clean & inputs big enough

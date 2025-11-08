@@ -97,3 +97,29 @@ footer { text-align: center; color: #64748b; padding: 28px 0; border-top: 1px so
   #hero h2 { font-size: 34px; }
 }
 html { scroll-behavior: smooth; }
+
+
+/* Base container already used; add safe paddings on small screens */
+@media (max-width: 560px){
+  header nav, .container { width: 94%; }
+  #hero { padding: 56px 0; }
+  #hero h2 { font-size: 30px; }
+  #hero p { font-size: 16px; }
+}
+ 
+/* Pricing: allow horizontal scroll on very small screens */
+#pricing .container { overflow-x: auto; }
+#pricing table { min-width: 560px; } /* if screen smaller, user can scroll */
+
+#faq summary{
+  padding-right: 28px;
+  position: relative;
+}
+#faq summary::after{
+  content: "▾";
+  position: absolute; right: 8px; top: 0;
+}
+#faq details[open] summary::after{
+  content: "▴";
+}
+
